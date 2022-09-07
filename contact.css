@@ -435,5 +435,54 @@ align-items: center;
     #name{
       width: 300px;
     }
+    @media (max-width: 480px) {
+        .contact {
+          padding: 1.5rem;
+        }
+
+        .contact .contact-info:before {
+          display: none;
+        }
+
+        #contact .square,
+        .contact .big-circle {
+          display: none;
+        }
+
+        .contact form,
+        .contact .contact-info {
+          padding: 1.7rem 1.6rem;
+        }
+
+        .contact .text,
+        .contact .information,
+        .contact .social-media p {
+          font-size: 0.8rem;
+        }
+
+        .contact .title {
+          font-size: 1.15rem;
+        }
+
+        .contact .social-icons a {
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+        }
+
+        .contact .icon {
+          width: 23px;
+        }
+
+        .contact .input {
+          padding: 0.45rem 1.2rem;
+        }
+
+        .contact .btn {
+          padding: 0.45rem 1.2rem;
+        }
+        #name {
+          width: 300px;
+        } }
     
 }
